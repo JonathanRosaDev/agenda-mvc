@@ -68,6 +68,7 @@ npm install
 ```
 
 3. Configure o arquivo `.env` com sua string de conexão do MongoDB.
+   ex:CONNECTIONSTRING=mongodb+srv://**********
 
 4. Execute a aplicação:
 
