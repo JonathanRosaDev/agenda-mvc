@@ -2,6 +2,9 @@
 
 Aplicação web desenvolvida em Node.js seguindo o padrão MVC (Model-View-Controller), com sistema de autenticação de usuários e gerenciamento de contatos.
 
+## 🔗 Demo ao vivo
+http://35.247.203.243
+
 ## Funcionalidades
 
 * Cadastro de usuários
@@ -39,6 +42,11 @@ Aplicação web desenvolvida em Node.js seguindo o padrão MVC (Model-View-Contr
 * Webpack
 * Babel
 
+### Infraestrutura
+* Google Cloud Platform (GCP)
+* Nginx (proxy reverso)
+* PM2 (gerenciador de processos)
+
 ## Arquitetura
 
 O projeto foi desenvolvido utilizando o padrão MVC:
@@ -57,6 +65,7 @@ Este projeto foi desenvolvido com foco em aprendizado e prática de conceitos fu
 * Segurança em aplicações web
 * Organização e modularização de código
 * Integração entre frontend e backend
+* Deploy em ambiente cloud com Linux
 
 ## Como Executar
 
@@ -68,7 +77,7 @@ npm install
 ```
 
 3. Configure o arquivo `.env` com sua string de conexão do MongoDB.
-   ex:CONNECTIONSTRING=mongodb+srv://**********
+   ex:CONNECTIONSTRING=mongodb+srv://usuario:senha@cluster.mongodb.net/AGENDA
 
 4. Execute a aplicação:
 
